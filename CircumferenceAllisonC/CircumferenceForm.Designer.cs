@@ -32,7 +32,7 @@
             this.lblAnswerText = new System.Windows.Forms.Label();
             this.lblEnterRadius = new System.Windows.Forms.Label();
             this.mnuMenu = new System.Windows.Forms.MenuStrip();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtRadius = new System.Windows.Forms.TextBox();
             this.mniFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mniExit = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCalculate = new System.Windows.Forms.Button();
@@ -43,7 +43,7 @@
             // 
             this.lblCircumference.AutoSize = true;
             this.lblCircumference.Font = new System.Drawing.Font("GOST Common", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCircumference.Location = new System.Drawing.Point(295, 182);
+            this.lblCircumference.Location = new System.Drawing.Point(295, 197);
             this.lblCircumference.Name = "lblCircumference";
             this.lblCircumference.Size = new System.Drawing.Size(0, 19);
             this.lblCircumference.TabIndex = 0;
@@ -53,7 +53,7 @@
             this.lblAnswerText.AutoSize = true;
             this.lblAnswerText.Font = new System.Drawing.Font("GOST Common", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAnswerText.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblAnswerText.Location = new System.Drawing.Point(31, 182);
+            this.lblAnswerText.Location = new System.Drawing.Point(33, 197);
             this.lblAnswerText.Name = "lblAnswerText";
             this.lblAnswerText.Size = new System.Drawing.Size(135, 19);
             this.lblAnswerText.TabIndex = 1;
@@ -80,12 +80,12 @@
             this.mnuMenu.TabIndex = 3;
             this.mnuMenu.Text = "menuStrip1";
             // 
-            // textBox1
+            // txtRadius
             // 
-            this.textBox1.Location = new System.Drawing.Point(299, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtRadius.Location = new System.Drawing.Point(299, 69);
+            this.txtRadius.Name = "txtRadius";
+            this.txtRadius.Size = new System.Drawing.Size(100, 20);
+            this.txtRadius.TabIndex = 4;
             // 
             // mniFile
             // 
@@ -105,12 +105,13 @@
             // 
             this.btnCalculate.BackColor = System.Drawing.Color.White;
             this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculate.Location = new System.Drawing.Point(171, 138);
+            this.btnCalculate.Location = new System.Drawing.Point(175, 140);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(83, 29);
             this.btnCalculate.TabIndex = 5;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = false;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // frmCircumference
             // 
@@ -119,7 +120,7 @@
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(439, 261);
             this.Controls.Add(this.btnCalculate);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtRadius);
             this.Controls.Add(this.lblEnterRadius);
             this.Controls.Add(this.lblAnswerText);
             this.Controls.Add(this.lblCircumference);
@@ -140,7 +141,7 @@
         private System.Windows.Forms.Label lblAnswerText;
         private System.Windows.Forms.Label lblEnterRadius;
         private System.Windows.Forms.MenuStrip mnuMenu;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtRadius;
         private System.Windows.Forms.ToolStripMenuItem mniFile;
         private System.Windows.Forms.ToolStripMenuItem mniExit;
         private System.Windows.Forms.Button btnCalculate;
