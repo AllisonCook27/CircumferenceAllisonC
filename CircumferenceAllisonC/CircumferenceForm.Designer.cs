@@ -52,6 +52,7 @@
             // 
             this.lblAnswerText.AutoSize = true;
             this.lblAnswerText.Font = new System.Drawing.Font("GOST Common", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnswerText.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblAnswerText.Location = new System.Drawing.Point(31, 182);
             this.lblAnswerText.Name = "lblAnswerText";
             this.lblAnswerText.Size = new System.Drawing.Size(135, 19);
@@ -62,6 +63,7 @@
             // 
             this.lblEnterRadius.AutoSize = true;
             this.lblEnterRadius.Font = new System.Drawing.Font("GOST Common", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnterRadius.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblEnterRadius.Location = new System.Drawing.Point(12, 67);
             this.lblEnterRadius.Name = "lblEnterRadius";
             this.lblEnterRadius.Size = new System.Drawing.Size(262, 19);
@@ -101,17 +103,20 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(179, 136);
+            this.btnCalculate.BackColor = System.Drawing.Color.White;
+            this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalculate.Location = new System.Drawing.Point(171, 138);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(75, 23);
+            this.btnCalculate.Size = new System.Drawing.Size(83, 29);
             this.btnCalculate.TabIndex = 5;
             this.btnCalculate.Text = "Calculate";
-            this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.UseVisualStyleBackColor = false;
             // 
             // frmCircumference
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(439, 261);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.textBox1);
