@@ -1,0 +1,10 @@
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\bin\Debug\CircumferenceAllisonC.exe.config
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\bin\Debug\CircumferenceAllisonC.exe
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\bin\Debug\CircumferenceAllisonC.pdb
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\obj\Debug\CircumferenceAllisonC.csprojResolveAssemblyReference.cache
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\obj\Debug\CircumferenceAllisonC.frmCircumference.resources
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\obj\Debug\CircumferenceAllisonC.Properties.Resources.resources
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\obj\Debug\CircumferenceAllisonC.csproj.GenerateResource.Cache
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\obj\Debug\CircumferenceAllisonC.csproj.CoreCompileInputs.cache
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\obj\Debug\CircumferenceAllisonC.exe
+C:\Users\Dave\Desktop\Allison's programing\CircumferenceAllisonC\CircumferenceAllisonC-master\CircumferenceAllisonC\obj\Debug\CircumferenceAllisonC.pdb
